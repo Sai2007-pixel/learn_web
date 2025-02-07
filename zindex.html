@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+           top: 150px;
+           left: 400px;
+           opacity: 0.5;
+           position: absolute;
+           z-index: 1;
+           
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+           
+          
+        }
+        .box3hover{
+            width: 100px;
+            height: 100px;
+           background-color: aqua;
+            
+          
+        /*i changed box3 hover to box1 hover box 3 is un complete*/
+            
+          
+        }
+        .box1:hover{
+            border-radius: 50%;
+            border: 10px double black;
+            background-image: url(lionb.jpg);
+            background-size: cover;
+            transform: scale(1.5);
+            cursor: pointer;
+            transform: skew(30deg);
+           
+            position: fixed;
+
+        }
+        .img{
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3hover">box3hover</div>
+</body>
+</html>
